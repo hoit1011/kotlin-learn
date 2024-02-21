@@ -13,7 +13,7 @@ class HelloActivity : AppCompatActivity() {
         binding = ActivityHelloBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.text.text = "Hello"
+        binding.text.text = "Hello world"
 
         binding.button.setOnClickListener{
             binding.text.text = "click!"
