@@ -16,7 +16,7 @@ class HelloActivity : AppCompatActivity() {
         binding.text.text = "Hello world"
 
         binding.button.setOnClickListener{
-            binding.text.text = "click!"
+            binding.text.text = "click"
         }
     }
 
